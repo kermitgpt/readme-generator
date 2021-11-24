@@ -1,0 +1,12 @@
+go to shields.io
+
+license
+
+create badge on there: go to the url that comes up and copy the url and then insert your response within the template literal
+
+adam-p markdown cheatsheet
+
+user "export" - to move the markdown template and move it into the index.js
+
+Use Screencastify to record screen to finish the walkthrough video: 27%
+    -- chrome extension
