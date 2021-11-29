@@ -4,7 +4,12 @@ license
 
 create badge on there: go to the url that comes up and copy the url and then insert your response within the template literal
 
+-- https://img.shields.io/badge/license-MIT-blue
+-- https://shields.io/category/license 
+
 adam-p markdown cheatsheet
+
+-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 user "export" - to move the markdown template and move it into the index.js
 
