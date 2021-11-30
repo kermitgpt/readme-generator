@@ -13,6 +13,8 @@ For this project I created a README generator to use as a template for future pr
 - [Installation](#installation)
 - [Usage](#usage)
 - [Questions](#questions)
+- [Video](#video-demonstration)
+- [Sample-README](#sample-readme)
 - [Images](#images)
 - [License](#license)
 
@@ -31,6 +33,14 @@ If you have any questions regarding this project please contact either on GitHub
 GitHub: [mattgrogandev](https://github.com/mattgrogandev)
 
 Email: mattgrogan.dev@gmail.com
+
+## Video-Demonstration
+
+[Video-Demonstration](https://watch.screencastify.com/v/PmvxxVuk5ZVObvA3ZQ1E)
+
+## Sample-README
+
+[Sample-README](https://github.com/mattgrogandev/sample-readme)
 
 ## Images
 
