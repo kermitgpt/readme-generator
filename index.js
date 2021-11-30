@@ -52,7 +52,7 @@ inquirer
     {
       type: "list",
       message: questions[6],
-      choices: ["BSD", "MIT", "GPL"],
+      choices: ["BSD", "MIT", "GPL", "No License"],
       name: "license",
     },
     {

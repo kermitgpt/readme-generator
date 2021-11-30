@@ -1,9 +1,18 @@
-# 
+
+<p align="center">
+  <font size="5"></font> 
+</p>
+
+![badge](
+      https://img.shields.io/badge/license-MIT-blue
+    )
+
 ## Description
 
 
+
 ## Table of Contents
-If your README is long, add a table of contents to make it easy for users to find what they need.
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution Guidelines](#contribution-guidelines)
@@ -11,19 +20,21 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Questions](#questions)
 - [License](#license)
 
+
 ## Installation
+
 
 
 ## Usage
 
 
-    md
-    ![alt text](assets/images/screenshot.png)
-    
+  
 ## Contribution-Guidelines
 
 
+
 ## Test-Instructions
+
 
 
 ## Questions
@@ -32,12 +43,7 @@ GitHub:
 Email: 
 
 ## License
-BSD
+ Licensed under the MIT license. [Link to MIT license text](MIT.txt).
 
+[Link to opensource.org license info](https://opensource.org/licenses/MIT)
 
-## Features
-If your project has a lot of features, list them here.
-## How to Contribute
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-## Tests
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.

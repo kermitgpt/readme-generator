@@ -4,26 +4,61 @@
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(response) {
+  if (response.license !== "No License") {
+    return `![badge](
+      https://img.shields.io/badge/license-${response.license}-blue
+    )`;
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(response) {
+  if (response.license === "MIT") {
+    return `[Link to opensource.org license info](https://opensource.org/licenses/MIT)`;
+  }
+  if (response.license === "BSD") {
+    return `[Link to opensource.org license info](https://opensource.org/licenses/BSD-2-Clause)`;
+  }
+  if (response.license === "GPL") {
+    return `[Link to opensource.org license info](https://opensource.org/licenses/GPL-3.0)`;
+  }
+  if (response.license === "No License") {
+    return "";
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(response) {
+  if (response.license !== "No License") {
+    return `## License\n Licensed under the ${response.license} license. [Link to ${response.license} license text](${response.license}.txt).
+`;
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 
 function generateMarkdown(response) {
   //Put down all of the readme info. Pass in responses from inquirer (user response)
-  return `# ${response.title}
+  return `
+<p align="center">
+  <font size="5">${response.title}</font> 
+</p>
+
+${renderLicenseBadge(response)}
+
 ## Description
 ${response.description}
 
+
 ## Table of Contents
-If your README is long, add a table of contents to make it easy for users to find what they need.
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution Guidelines](#contribution-guidelines)
@@ -31,36 +66,31 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Questions](#questions)
 - [License](#license)
 
+
 ## Installation
 ${response.installation}
+
 
 ## Usage
 ${response.usage}
 
-    md
-    ![alt text](assets/images/screenshot.png)
-    
+  
 ## Contribution-Guidelines
 ${response.contribution}
 
+
 ## Test-Instructions
 ${response.test}
+
 
 ## Questions
 If you have any questions regarding this project please contact either on GitHub or by Email below.
 GitHub: ${response.github}
 Email: ${response.email}
 
-## License
-${response.license}
+${renderLicenseSection(response)}
+${renderLicenseLink(response)}
 
-
-## Features
-If your project has a lot of features, list them here.
-## How to Contribute
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-## Tests
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 `;
 }
 
