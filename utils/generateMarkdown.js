@@ -85,7 +85,9 @@ ${response.test}
 
 ## Questions
 If you have any questions regarding this project please contact either on GitHub or by Email below.
-GitHub: ${response.github}
+
+GitHub: [${response.github}](https://github.com/${response.github})
+  
 Email: ${response.email}
 
 ${renderLicenseSection(response)}

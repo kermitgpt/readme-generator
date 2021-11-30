@@ -68,7 +68,7 @@ inquirer
   ])
   .then((response) => {
     console.log(response);
-    fs.writeFile("README.md", generateMarkdown(response), (err) =>
+    fs.writeFile("README1.md", generateMarkdown(response), (err) =>
       err
         ? console.error(err)
         : console.log("Your new README.md file was successfully written!")
@@ -76,8 +76,8 @@ inquirer
   });
 /* function writeToFile(fileName, data) {} */
 
-// TODO: Create a function to initialize app
+/* // TODO: Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
-init();
+init(); */
